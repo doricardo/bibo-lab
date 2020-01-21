@@ -23,7 +23,7 @@ from collections import defaultdict
 from object_detection.utils import dataset_util
 from object_detection.utils import label_map_util
 
-from utils import read_examples_list
+from object_detection.utils import read_examples_list
 
 config_label_map_path = "model/label_map.pbtxt"
 config_train_dir = "data_train"
